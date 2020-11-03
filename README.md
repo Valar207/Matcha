@@ -5,8 +5,6 @@ A user will be able to register, connect, fill his/her profile, search and look 
 
 ![alt text](https://github.com/Valar207/Matcha/front-end/public/img/homepage.png)
 
-![alt text](https://github.com/warharra/Matcha/blob/master/img2.png)
-
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development.
