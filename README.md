@@ -3,7 +3,8 @@
 This project is about creating a dating website.
 A user will be able to register, connect, fill his/her profile, search and look into the profile of other users, chat with those that "liked" back and more !
 
-![alt text](front-end/public/img/homepage.PNG =250x250)
+<img src="front-end/public/img/homepage.PNG" width="48">
+![alt text](front-end/public/img/homepage.PNG)
 ![alt text](front-end/public/img/signup.PNG)
 ![alt text](front-end/public/img/profilpage.PNG)
 ![alt text](front-end/public/img/match.PNG)
