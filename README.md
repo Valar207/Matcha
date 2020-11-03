@@ -7,6 +7,7 @@ A user will be able to register, connect, fill his/her profile, search and look 
 ![alt text](front-end/public/img/signup.PNG)
 ![alt text](front-end/public/img/profilpage.PNG)
 ![alt text](front-end/public/img/match.PNG)
+![alt text](front-end/public/img/chat.PNG)
 
 ## Getting Started
 
