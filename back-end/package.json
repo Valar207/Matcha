@@ -1,0 +1,63 @@
+{
+  "name": "matcha",
+  "version": "1.0.0",
+  "description": "A dating web-app",
+  "scripts": {
+    "start": "nodemon --exec babel-node ./src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "axios": "^0.19.2",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "bcrypt": "^5.0.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "connect-redis": "^4.0.4",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.5",
+    "debug": "^3.0.1",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.0",
+    "express-mysql-session": "^2.1.4",
+    "express-session": "^1.17.1",
+    "faker": "^5.1.0",
+    "http": "0.0.0",
+    "ipinfo": "^1.5.0",
+    "jimp": "^0.8.5",
+    "jsonwebtoken": "^8.5.1",
+    "mmmagic": "^0.5.3",
+    "moment": "^2.29.1",
+    "morgan": "^1.9.0",
+    "multer": "^1.4.2",
+    "mysql": "^2.15.0",
+    "nodemailer": "^4.7.0",
+    "rand-token": "^1.0.1",
+    "react-facebook-login": "^4.1.1",
+    "react-google-login": "^5.1.21",
+    "react-notifications": "^1.7.2",
+    "redis": "^3.0.2",
+    "socket.io": "^2.0.3",
+    "socket.io-parser": "^3.4.0",
+    "socketio-jwt": "^4.5.0",
+    "universal-cookie": "^4.0.4",
+    "uuid-token-generator": "^1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oumaysou/Matcha.git"
+  },
+  "author": "oumaysou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oumaysou/Matcha/issues"
+  },
+  "homepage": "https://github.com/oumaysou/Matcha#readme",
+  "devDependencies": {
+    "@babel/node": "^7.10.5",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "nodemon": "^1.11.0"
+  }
+}

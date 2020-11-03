@@ -1,0 +1,63 @@
+.profiluserpage {
+  margin: 10px 20px !important;
+}
+.profiluserpage .row {
+  margin-bottom: 30px !important ;
+}
+.profiluserpage img {
+  height: 200px;
+  margin: 5px;
+}
+.profiluserpage-badge, .profiluserpage-badge-mobile {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5px 5px 20px 5px ;
+}
+.profiluserpage-badge-mobile {
+  justify-content: center !important;
+
+}
+.profiluserpage-badge .badge, .profiluserpage-badge-mobile .badge {
+  margin: 5px ;
+  padding: 15px;
+  color: white;
+  box-shadow: 0px 0px 0px 0.5px white;
+}
+
+.button {
+  color: #9d9d9d !important;
+  background-color: transparent !important;
+  border: none !important;
+  padding: 25px !important;
+
+}
+.button:focus {
+  box-shadow: none !important;
+}
+
+.block-btn,.block-btn-mobile {
+  font-size: 18px !important;
+  width: 200px;
+  padding: 15px !important;
+  color: white;
+  border: none !important;
+  background-color: rgb(255, 44, 44) !important;
+  justify-content: center;
+  border-radius: 50px !important;
+  padding: 10px 20px;
+  margin: 20px 15px;
+  transition: 0.7s;
+}
+.block-btn-mobile {
+  width: 320px;
+  padding: 20px  !important;
+}
+.block-btn:hover {
+  background-color: rgb(202, 0, 0) !important;
+  transition: 0.7s;
+}
+.online-profil {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}

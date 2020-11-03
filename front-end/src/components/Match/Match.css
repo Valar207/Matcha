@@ -1,0 +1,122 @@
+.left-block .sort {
+  padding: 0 !important;
+  text-align: center;
+}
+
+.profils-match {
+  height: 250px !important;
+  padding: 5px;
+}
+.profils-match-mobile {
+  padding: 5px;
+}
+.profils {
+  height: 94vh;
+  overflow: scroll;
+  padding: 30px 7px !important;
+  display: flex;
+  flex-wrap: wrap;
+}
+.profils-mobile {
+  height: 90vh;
+  overflow: scroll;
+}
+.profils .card {
+  width: 290px;
+  height: 670px;
+  background-color: #191919 !important;
+  text-align: center;
+  color: white;
+  margin: 15px;
+}
+.profils-mobile .card {
+  background-color: #191919 !important;
+  text-align: center;
+  color: white;
+  margin: 15px;
+}
+.male {
+  box-shadow: 0 -2px 8px 0 turquoise, 0 2px 8px 0 turquoise !important;
+}
+.female {
+  box-shadow: 0 -2px 8px 0 rgb(248, 145, 252), 0 2px 8px 0 rgb(248, 145, 252);
+}
+.online {
+  display: inline-block;
+  margin-left: 8px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: rgb(44, 255, 44);
+  box-shadow: 0 0 8px 2px rgb(44, 255, 44)
+}
+.offline {
+  display: inline-block;
+  margin-left: 8px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: rgb(255, 37, 37);
+  box-shadow: 0 0 8px 2px rgb(255, 37, 37)
+}
+.profils .card button,.profils-mobile .card button , .filter-mobile .card-header button  {
+  color: #9d9d9d !important;
+  background-color: transparent !important;
+  border: none !important;
+  outline: none;
+}
+.profils .card button:focus ,.profils-mobile .card button:focus,.filter-mobile .card-header button:focus  {
+  box-shadow: none !important;
+}
+.viewprofil-btn {
+  font-size: 16px;
+  color: white;
+  background-color: rgb(68, 68, 68) ;
+  justify-content: center;
+  border-radius: 30px;
+  padding: 10px 20px;
+  margin: 20px 15px;
+  transition: 0.7s;
+}
+.viewprofil-btn:hover {
+  transition: 0.7s;
+  background-color: #868686 ;
+  text-decoration: none;
+  color: white;
+}
+.match-badge .badge{
+  padding: 7px !important;
+  margin: 2px;
+}
+.modal-match .modal-content {
+  background-color: #262626;
+}
+.modal-match .modal-title {
+  color: white;
+  text-align: center;
+  margin: 25px 5px;
+}
+.modal-match .modal-body {
+  margin-bottom: 40px;
+}
+.modal-match .modal-content img {
+  height: 230px;
+  width: 230px;
+  margin: 10px;
+}
+.filter-mobile {
+  width: 100%;
+}
+.filter-mobile .card-header{
+  height: 60px;
+  text-align: end;
+}
+
+.filter-mobile .card{
+  background-color: #1b1b1b;
+  opacity: 0.8;
+}
+.filter-body-mobile {
+  overflow: scroll;
+  height: 100px;
+}

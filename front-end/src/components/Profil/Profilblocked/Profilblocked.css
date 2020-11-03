@@ -1,0 +1,10 @@
+.unblock-btn {
+  font-size: 18px !important;
+  width: 130px;
+  padding: 8px !important;
+  color: white;
+  border: none !important;
+  background-color: rgb(255, 44, 44) !important;
+  border-radius: 50px !important;
+  transition: 0.7s;
+}

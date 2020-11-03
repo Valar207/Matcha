@@ -1,0 +1,26 @@
+.form-label, .form-check-label {
+    color: #c7c7c7 ;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+p {
+    color: white;
+}
+.profilContainer .bio {
+    border-radius: 30px !important;
+    height: 160px !important;
+} 
+.setting-btn {
+    margin: 20px 0 0 0;
+    font-size: 18px !important;
+    width: 100%;
+    height: 60px;
+    padding: 8px !important;
+    color: black;
+    border: none !important;
+    background-color: #cda7ff !important;
+    border-radius: 50px !important;
+    border:none;
+    transition: 0.7s;
+}

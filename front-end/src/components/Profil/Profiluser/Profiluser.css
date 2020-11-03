@@ -1,0 +1,76 @@
+.profilphotos {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+.profilphotos img {
+    margin: 5px;
+    width: 200px;
+    height: 200px;
+}
+.profilbio {
+    max-height: 250px;
+    overflow: overlay;
+}
+.border {
+    height: 300px;
+    border: solid 1px white;
+}
+p {
+    color: white;
+}
+.delete {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    margin: 10px -50px;
+    background-color: #262626!important;
+    border-radius: 50% !important;
+    border: none !important;
+    color: white!important;
+}
+.delete:focus {
+    outline: none;
+}
+h4 {
+    color: rgb(185, 185, 185);
+}
+.interest .btn {
+    font-size: 20px;
+    color: white;
+    border: 0.5px solid grey;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 6px 10px;
+    margin: 5px;
+    background-color: transparent;
+    transition: 0.5s;
+}
+.interest .btn-primary:hover {
+    background-color: #cda7ff;
+    color: black;
+    border: white;
+    transition: 0.5s;
+}
+.interest .btn-primary:focus {
+    background-color: transparent;
+    color: white;
+    border: white !important;
+    box-shadow: 0px 0px 0px 0.5px white !important;
+}
+.interestActif {
+    background-color: #cda7ff!important;
+    color: black !important;
+    border: none !important;
+}
+.form-label img{
+  cursor: pointer;
+}
+
+.carousel-profil-user-mobile {
+    width: 100% !important;
+}
+.carousel-profil-user-mobile img{
+    width: 300px
+
+}

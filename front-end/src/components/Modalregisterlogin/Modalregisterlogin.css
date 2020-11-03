@@ -1,0 +1,115 @@
+.modal-content .modalregisterlogin {
+    /* background-image: url("/img/fond.jpg");  */
+    background-color: #191919;
+    border-radius: 30px !important;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 30px;
+}
+.form-check-inline {
+    margin: 0 40px;
+}
+.modalclose {
+    position: absolute;
+    right: 10px;
+}
+.modal-content .form-control {
+    background-color: #353535 !important;
+    border-radius: 30px;
+    color: #9d9d9d !important;
+    height: 50px;
+    margin-top: 35px;
+    border: 1px solid #353535;
+}
+.margin0 {
+    margin-bottom: 0 !important;
+}
+.modal-content .form-control:focus {
+    border-color: #6b6b6b !important;
+    box-shadow: 0px 0px 10px 0px #b3b3b3 !important;
+}
+.modal-content .navbar-nav {
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px 0 40px 0;
+    border: none;
+}
+.modal-content .nav-link {
+    padding: 10px;
+    margin: 0 10px;
+    border: none !important;
+    color: gray;
+    transition: 0.5s;
+}
+.modal-content .nav-link:hover {
+    border: none;
+}
+
+.modal-content .nav-link.active {
+    background-color: transparent !important;
+    color: white !important;
+    border-bottom: 1px solid white !important;
+    transition: 0.5s;
+}
+
+.error-input {
+    border: 1px solid #f62027 !important;
+    box-shadow: 0px 0px 10px 0px #f62027 !important;
+    border-radius: 4px;
+}
+.error-text {
+    position: absolute;
+    font-size: 13px;
+    margin: 5px 15px;
+    color: #f62027;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* .error-gender {
+	position: absolute;
+	margin: -25px 15px;
+	color: red;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+} */
+.modal-content .button-submit {
+    width: 100% !important;
+    height: 70px;
+    background-color: #cda7ff;
+    border-radius: 70px;
+    color: black;
+    margin: 20px 0 20px 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+    border: 1px solid black;
+    transition: 0.5s !important;
+}
+.modal-content .button-submit:hover {
+    background-color: #a564f2;
+    color: white;
+    transition: 0.5s !important;
+}
+.forgot-btn {
+    color: #9d9d9d !important;
+    background-color: transparent !important;
+    border: none !important;
+}
+.forgot-btn:hover {
+    color:white !important
+}
+.forgot-btn:focus {
+    box-shadow: none !important;
+    color: white !important;
+}
+.signup-in-btn {
+    background-color: #cda7ff !important;
+    border-radius: 5px;
+    color: black !important ;
+    transition: 0.8s;
+    border: none !important;
+    margin-left: 5px;
+    height: 40px;
+}
+.signup-in-btn:hover {
+    color: white !important; 
+    background-color: #9f6ce0 !important;
+    transition: 0.4s;
+}

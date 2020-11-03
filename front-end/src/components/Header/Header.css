@@ -1,0 +1,135 @@
+.logo-mobile { 
+    background-color: black;
+    padding: 5px;
+    border-radius: 50px;
+
+}
+.header-btn {
+    width: 30px;
+    height: 30px;
+    padding: 0 !important;
+    transition: 0.7s;
+}
+.header-btn:hover {
+    color: #cda7ff!important;
+    transition: 0.2s;
+}
+.logout-btn {
+    color: #7b7b7b!important;
+    background-color: transparent !important;
+    border: none !important;
+}
+.logout-btn{
+    width: 35px;
+    height: 35px;
+    color: white !important;
+    margin: 0 0 0 10px;
+    transition: 0.7s;
+
+}
+.logout-btn:hover{ 
+    color: #cda7ff!important;
+    transition: 0.2s;
+
+}
+.logout-btn:hover {
+    cursor: pointer
+}
+.match-btn {
+    background-color: #cda7ff;
+    border-radius: 5px;
+    margin-right: 10px;
+    color: black !important ;
+    transition: 0.8s;
+}
+.match-btn-mobile {
+    background-color: #cda7ff;
+    border-radius: 50px;
+    margin-right: 10px;
+    color: black !important ;
+    transition: 0.8s;
+    padding: 2px !important;
+}
+.match-btn:hover {
+   color: white !important; 
+   background-color: #9f6ce0;
+   transition: 0.4s;
+}
+.notif-btn .btn-primary{
+    background-color: transparent !important;
+    border: none;
+}
+.notif-btn .btn-primary:focus {
+   box-shadow: none !important;
+}
+.notif-badge {
+    position: absolute;
+    right: 68px;
+    top: 15px;
+    border-radius: 50px !important;
+    z-index: 10
+}
+
+.dropdown-menu {
+    max-height: 300px;
+    overflow-y: scroll;
+}
+
+.dropdown-toggle::after {
+    display:none !important;
+}
+
+.link-notif {
+    display: block;
+    width: 100%;
+    padding: 0.25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: #dddddd;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+.link-notif:hover {
+    text-decoration: none;
+    color: #cda7ff;
+}
+.menu-mobile-btn .btn-primary{
+    background-color:  transparent;
+    border-color:  transparent;
+    float: left;
+}
+.menu-mobile-btn .btn-primary:hover {
+    background-color: transparent;
+    outline: none !important;
+    box-shadow: none !important;
+    text-decoration: none !important;
+    border: none !important;
+
+}
+.menu-mobile-btn .btn-primary:focus {
+    background-color: transparent !important;
+    border-color: transparent !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+.dropdown-menu.show{
+    background-color: #191919;
+}
+.dropdown-item {
+    color: white !important;
+    margin: 10px 0;
+    text-align: center !important;
+}
+.dropdown-item:hover {
+    color:  #cda7ff !important;
+    background-color: transparent !important;
+    text-align: center !important;
+}
+.dropdown-item.disabled {
+    color:  grey !important;
+}
+.navdropdown-menu {
+    width: 5px !important;
+}
